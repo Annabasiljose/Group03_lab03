@@ -9,11 +9,20 @@ dijkstra(graph, init_node)
 }
 \arguments{
 \item{graph}{a data frame with three arguments:
-v1, v2 and w}
+v1, v2 gives the edges of the graph and w gives
+the weight of the edge}
 
-\item{init_node}{source node}
+\item{init_node}{source node from which the distance
+is to be calculated}
+}
+\value{
+calculated distance from source node to all
+other nodes is returned
 }
 \description{
 Dijkstra function to calculate the shortest
 path from a source node to all other nodes
+}
+\references{
+\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
