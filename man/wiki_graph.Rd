@@ -3,7 +3,7 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{Wiki_graph dataa}
+\title{Wiki_graph data}
 \format{
 An object of class \code{data.frame} with 18 rows and 3 columns.
 }
@@ -11,7 +11,9 @@ An object of class \code{data.frame} with 18 rows and 3 columns.
 wiki_graph
 }
 \description{
-Dataframe
+Wiki_graph is a dataframe with 3 variables.
+v1 and v2 gives the edges of a graph. w gives the weight of
+the particular edge in the graph.
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}

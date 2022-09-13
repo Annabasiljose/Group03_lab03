@@ -2,15 +2,18 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra function to calculate the shortest path}
+\title{Dijkstra function to calculate the shortest
+path from a source node to all other nodes}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{a data frame with three arguments v1,v2 and w}
+\item{graph}{a data frame with three arguments:
+v1, v2 and w}
 
 \item{init_node}{source node}
 }
 \description{
-Dijkstra function to calculate the shortest path
+Dijkstra function to calculate the shortest
+path from a source node to all other nodes
 }

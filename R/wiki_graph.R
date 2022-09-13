@@ -1,6 +1,8 @@
-#' Wiki_graph dataa
+#' Wiki_graph data
 #'
-#' Dataframe
+#' Wiki_graph is a dataframe with 3 variables.
+#' v1 and v2 gives the edges of a graph. w gives the weight of
+#' the particular edge in the graph.
 #'
 #' @docType data
 #'

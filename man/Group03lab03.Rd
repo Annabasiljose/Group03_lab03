@@ -3,12 +3,12 @@
 \docType{package}
 \name{Group03lab03}
 \alias{Group03lab03}
-\title{Group03lab03: A package that contains the Dijkstra and Euclidean algorithm}
+\title{Group03lab03: A package that contains the Dijkstra
+and Euclidean algorithm}
 \description{
-The Group03lab03 package contains three functions:
+The Group03lab03 package contains two algorithms:
 \enumerate{
 \item dijkstra
-\item getdistance
 \item euclidean
 }
 }
@@ -16,8 +16,9 @@ The Group03lab03 package contains three functions:
 
 \enumerate{
 \item dijkstra
-\item getdistance
+returns the distance from a starting node to all other nodes
 \item euclidean
+calculates the gcd of two numbers
 }
 }
 

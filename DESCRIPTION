@@ -5,7 +5,7 @@ Authors@R:
     c(
     person("Anna Basil", "Jose", email = "annjo768@student.liu.se", role = c("aut", "cre")),
     person("Bright David", "NIYIBIZI",email = "brini581@student.liu.se", role = c("aut", "ctb")))
-Description: The package contains two algorithms - Dijkstra and Euclidean. Those two algorithms are useful.
+Description: The package contains two algorithms - Dijkstra and Euclidean. Dijkstra algorithm calculates the shortest path from a source node to all other nodes, Euclidean calculates the GCD of 2 numbers.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
