@@ -1,3 +1,8 @@
+#' Euclidean function to calculate the Greatest Common Divisor(GCD)
+#' @param a the first numeric scalar/integer argument
+#' @param b the second numeric scalar/integer argument
+#' @export
+
 #euclidean Function
 euclidean <- function(a,b){
   gcd_result <- 0

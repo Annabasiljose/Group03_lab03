@@ -1,3 +1,7 @@
+#' Dijkstra function to calculate the shortest path
+#' @param graph a data frame with three arguments v1,v2 and w
+#' @param init_node source node
+#' @export
 dijkstra <- function(graph, init_node){
   nodes <- union(unique(graph$v1),unique(graph$v2))
   distance_mat <- matrix(NA, nrow = length(nodes), ncol = 2)
