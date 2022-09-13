@@ -14,3 +14,6 @@ euclidean(a, b)
 \description{
 Euclidean function to calculate the Greatest Common Divisor(GCD)
 }
+\references{
+\url{https://en.wikipedia.org/wiki/Euclidean}
+}
