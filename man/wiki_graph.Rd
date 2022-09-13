@@ -14,7 +14,6 @@ wiki_graph
 Dataframe
 }
 \references{
-Wikipedia
-(\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm})
+\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
 \keyword{datasets}
