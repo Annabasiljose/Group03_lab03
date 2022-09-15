@@ -1,6 +1,7 @@
 #' Euclidean function to calculate the Greatest Common Divisor(GCD)
 #' @param a the first numeric scalar/integer argument
 #' @param b the second numeric scalar/integer argument
+#' @return calculated Greatest Common Divisor(GCD) from arguments(a and b)
 #' @references
 #' \url{https://en.wikipedia.org/wiki/Euclidean}
 #' @export
