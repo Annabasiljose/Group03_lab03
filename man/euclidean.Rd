@@ -11,6 +11,9 @@ euclidean(a, b)
 
 \item{b}{the second numeric scalar/integer argument}
 }
+\value{
+Calculated Greatest Common Divisor(GCD) from arguments(a and b)
+}
 \description{
 Euclidean function to calculate the Greatest Common Divisor(GCD)
 }
