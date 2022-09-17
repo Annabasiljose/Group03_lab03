@@ -9,6 +9,9 @@
 #euclidean Function
 
 euclidean <- function (a,b){
+  if(!is.numeric(a)|| !is.numeric(b)){
+    stop("Input values have to be Numeric")
+  }
   while(b>0){
     t<-b
     b<- a%%b
