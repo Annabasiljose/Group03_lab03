@@ -10,7 +10,7 @@
 
 euclidean <- function (a,b){
   if(!is.numeric(a)|| !is.numeric(b)){
-    stop("Input values have to be Numeric")
+    stop("Input values have to be Numeric only")
   }
   while(b>0){
     t<-b
